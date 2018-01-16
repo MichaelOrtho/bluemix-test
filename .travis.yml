@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+- '9'
+cache:
+  directories:
+  - node_modules
+env:
+install:
+- npm install
+script:
+- npm test
+branches:
+  only:
+  - develop
+deploy:
+- provider: bluemixcloudfoundry
+  edge: true
+  username: mihovil.strujic@ibm.com
+  api: https://api.ng.bluemix.net
+  organization: PhytelDevelopment
+  space: dev
+  on:
+    branch: develop

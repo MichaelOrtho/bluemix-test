@@ -1,0 +1,5 @@
+applications:
+  - name: bluemix-travis.test
+    memory: 128M
+    command: npm start
+    instances: 1
