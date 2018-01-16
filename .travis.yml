@@ -16,6 +16,8 @@ deploy:
 - provider: bluemixcloudfoundry
   edge: true
   username: mihovil.strujic@ibm.com
+  password:
+    secure: "pyonTb+Xi2hsb4452pEIsnzC8KPxO0paKtCN5BGznTZyr0HKddgi+gZvk959G76ONO8V+TQ/PjrYxDY+Uew0lvKOPIICLL34CFCogDMRlGOFd86/Py7kcGo2IT0NeWYMIA9bAUUsDdCOJOmLhp8mrrpv1TWoLwQDLqasML1YzDzrGrsJYOHcCIs8k6ZSbc0T4vLkrgE+H4dDGxGRfDL++MIYBxH5wl2X+OITHDU2/LIYmryESJLJMQBqiY0Q/+8quUMcX0/Au0x0tH2AOwdjcmmpCy7NzDoF1KTf02ofzZclgOTbTiqvGJzcgszOHucwVvrrTEiQKROa8WA/tcpuSqOyedgQIzhtbmQVIS2cavcGj5N78yAnZIqyf0L3L4PdL+3Tr3hDXJ5Ki3D8V7hhFGAV8E2401zZNMrMQXdKH8vTRD1aJ/Lo6OWkxJiZwXl2nR6YrdSCr8S/7uAGnZEt5qHqPUHf8i6ix/6QGzFwNyaTkO0oYDCSQ0hje5RTCTDQ0DQ7kiNeB8z4bkwiJacy+PZQwnZob4f+jhAoCx7hRzREvHJzNpfk24r5YqRpwyg3JdLc+Qz4pYSSIPJNs6x2LEhHqJy3N0NJcbTWr5yIsbD83F02lRL3J8KbyC1GnU+advjqJKuJ4dejmLieVrLekkKAO/kxQNO1vdC5GNtaVzw="
   api: https://api.ng.bluemix.net
   organization: PhytelDevelopment
   space: dev
