@@ -12,6 +12,8 @@ script:
 branches:
   only:
   - develop
+before_deploy:
+- rm -R ./node_modules
 deploy:
 - provider: cloudfoundry
   edge: true
