@@ -24,7 +24,7 @@ deploy:
   organization: PhytelDevelopment
   space: dev
   on:
-    branch: develop
+    branch: develop-disable
 - provider: bluemixcloudfoundry
   edge: true
   username: mihovil.strujic@ibm.com
